@@ -154,16 +154,6 @@ polytrack-ai/
 4. **MPS Compatibility**: Fixed adaptive pooling issues specific to Apple Silicon
 5. **Stuck Detection**: Added sophisticated crash detection beyond simple speed monitoring
 
-## Future Improvements
-
-- [ ] Implement prioritized experience replay for faster learning
-- [ ] Add curriculum learning (start with easier tracks)
-- [ ] Multi-track support and track-specific models
-- [ ] Real-time training visualization dashboard
-- [ ] A3C (Asynchronous Advantage Actor-Critic) for parallel training
-- [ ] Imitation learning from human gameplay recordings
-- [ ] Transfer learning across similar racing games
-
 ## Contributing
 
 This is a learning project! Feel free to:
@@ -180,6 +170,4 @@ MIT License - See LICENSE file for details
 
 **Saurya Aditya Sahu** ([@sahusaurya](https://github.com/sahusaurya))
 
-- Inspired by DeepMind's game-playing agents (DQN paper, AlphaGo)
-- Built with PyTorch and the RL community's best practices
-- Thanks to Polytrack developers for creating an engaging test environment
+- Built with PyTorch
